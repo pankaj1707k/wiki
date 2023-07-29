@@ -94,7 +94,7 @@
 ## PostgreSQL
 
 It is the most widely used SQL database for production level applications.
-Some of the reasons for this are:
+Some of its features are:
 
 - **Multi-version concurrency control**: While querying a database each
   transaction sees a snapshot of the data (a database version) as it was some
@@ -104,7 +104,7 @@ Some of the reasons for this are:
   columns. This provides transaction isolation during different database sessions.
 
 - **Inheritance** in schemas inspired from the object oriented paradigm. This
-  allows for better integration with Object relation models (ORMs).
+  allows for better integration with Object Relational Mappings (ORMs).
 
 - Ability to create complex custom attributes by combining native or other custom
   attributes. This is analogous to composition in OOP. It also has native JSON
