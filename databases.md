@@ -30,8 +30,7 @@
 ## Relational databases
 
 - Relational is optimal choice for strictly structured data.
-- Relational DB minimizes redundancy in data and due to fixed structure and
-  order it is scalable by database sharding.
+- Relational DB minimizes redundancy in data.
 - Scalable using database sharding.
 - ACID compliant
   - Atomicity: Each transaction is either run completely or not run at all.
@@ -108,6 +107,6 @@ Some of its features are:
 
 - Ability to create complex custom attributes by combining native or other custom
   attributes. This is analogous to composition in OOP. It also has native JSON
-  datatype for storing which can be used for semi-structured data.
+  datatype which can be used for semi-structured data.
 
-- Stored precompiled SQL procedures.
+- Stored and precompiled SQL procedures.
